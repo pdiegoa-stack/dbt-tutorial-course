@@ -3,12 +3,16 @@
     "terminal.integrated.profiles.windows": {
         "Git Bash": {
             "source": "Git Bash",
-            "args": ["--login", "-i"],
+            "args": [
+                "--login",
+                "-i"
+            ],
             "overrideName": true,
             "env": {
                 "VIRTUAL_ENV": "${env:VIRTUAL_ENV}"
             }
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "dbt.enableNewLineagePanel": true
 }
