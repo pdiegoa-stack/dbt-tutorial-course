@@ -1,0 +1,14 @@
+{
+    "python.defaultInterpreterPath": "${env:VIRTUAL_ENV}/Scripts/python.exe",
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "source": "Git Bash",
+            "args": ["--login", "-i"],
+            "overrideName": true,
+            "env": {
+                "VIRTUAL_ENV": "${env:VIRTUAL_ENV}"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}

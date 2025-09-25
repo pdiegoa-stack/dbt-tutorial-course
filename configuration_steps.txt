@@ -1,0 +1,3 @@
+Dentro del terminal
+
+export BIGQUERY_PROJECT="your_project_name"
