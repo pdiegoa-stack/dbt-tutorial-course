@@ -1,0 +1,29 @@
+models:
+  - name: stg_ecommerce__products
+    description: "Staging model for product data"
+    columns:
+      - name: product_id
+        description: "Unique identifier for the product"
+        tests:
+          - unique
+          - not_null
+
+      - name: cost
+        description: "Cost price of the product"
+        tests:
+          - not_null
+
+      - name: retail_price
+        description: "Retail price of the product"
+        tests:
+          - not_null
+
+      - name: department
+        description: "Department to which the product belongs"
+        tests:
+          - not_null
+
+      - name: brand
+        description: "Brand of the product"
+        tests:
+          - not_null
